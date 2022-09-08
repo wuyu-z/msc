@@ -90,7 +90,7 @@ os.rename(meta_h5_file,os.path.join(meta_path,meta_file))
 
 
 h5_compelte_path='./results/BarlowTwins_3/sampledataset/h224_w224_n3_zdim128/hdf5_TCGAFFPE_LUADLUSC_5x_60pc_he_complete_lungsubtype_survival_filtered.h5'
-h5_additional_path='./output/hdf5_%svector_lungsubtype_survival.h5' % h5
+h5_additional_path='./output/hdf5_%s_vector_lungsubtype_survival.h5' % h5
 lung_subtype=['lung_subtypes_nn250','./utilities/files/LUADLUSC/lungsubtype_Institutions.pkl']
 overall_survive=['luad_overall_survival_nn250','./utilities/files/LUAD/overall_survival_TCGA_folds.pkl']
 list_args=[lung_subtype,overall_survive]
