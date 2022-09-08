@@ -59,7 +59,7 @@ def create_meta_csv(file):
     return output_path
 
 
-'''
+
 h5='testsample'
 h5_path='./%s.h5' % h5
 
@@ -96,9 +96,8 @@ overall_survive=['luad_overall_survival_nn250','./utilities/files/LUAD/overall_s
 list_args=[lung_subtype,overall_survive]
 for i in list_args:
     assign.assign_cluster(resolution=2.0,meta_field=i[0],folds_pickle=i[1],h5_complete_path=h5_compelte_path,h5_additional_path=h5_additional_path)
-'''
-h5='testsample'
-h5_path='./%s.h5' % h5
+
+
 cluster_path=[['./results/BarlowTwins_3/sampledataset/h224_w224_n3_zdim128/lung_subtypes_nn250/adatas/%s_vector_lungsubtype_survival_leiden_2p0__fold0.csv' % h5,'lungsubtype'],
               ['./results/BarlowTwins_3/sampledataset/h224_w224_n3_zdim128/luad_overall_survival_nn250/adatas/%s_vector_lungsubtype_survival_leiden_2p0__fold4.csv' % h5,'survival']]
 
