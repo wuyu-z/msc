@@ -1,0 +1,6 @@
+--------------------------------------------------
+Most dominant cluster of lungsubtype is 35
+Subtype favour luad 
+--------------------------------------------------
+Most dominant cluster of survival is 39
+Survivability favour death 
